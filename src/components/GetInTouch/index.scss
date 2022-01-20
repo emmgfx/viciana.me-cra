@@ -1,0 +1,34 @@
+section#get-in-touch {
+  margin-bottom: calc(var(--size-minimum-unit) * 11);
+  max-width: 640px;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+
+  p {
+    margin-bottom: calc(var(--size-minimum-unit) * 3);
+    a {
+      color: var(--color-accent);
+    }
+  }
+
+  div.social {
+    gap: 48px;
+
+    a {
+      display: block;
+      width: 32px;
+      height: 32px;
+
+      svg {
+        display: block;
+        width: 32px;
+        height: 32px;
+      }
+
+      &:hover svg path {
+        fill: var(--color-accent);
+      }
+    }
+  }
+}

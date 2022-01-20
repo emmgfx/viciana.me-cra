@@ -1,0 +1,57 @@
+img.me {
+  user-select: none;
+  position: absolute;
+  animation-name: floating-me;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+img.doodle {
+  position: absolute;
+  z-index: -1;
+  user-select: none;
+
+  &.doodle-1 {
+    position: 0;
+    top: 120px;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+  }
+
+  &.doodle-2 {
+    top: 413px;
+    left: 50%;
+    width: 140px;
+    height: 140px;
+    transform: rotate(150deg);
+    filter: blur(2px);
+  }
+
+  &.doodle-3 {
+    top: 348px;
+    left: calc(50% + 768px - 363px);
+    width: 363px;
+    height: 363px;
+    filter: blur(8px);
+  }
+
+  &.doodle-4 {
+    top: 366px;
+    left: calc(-363px / 2);
+    width: 363px;
+    height: 363px;
+    filter: blur(8px);
+  }
+}
+
+@keyframes floating-me {
+  0% {
+    transform: translateY(-10px) rotate(0deg);
+  }
+  100% {
+    transform: translateY(10px) rotate(3deg);
+  }
+}

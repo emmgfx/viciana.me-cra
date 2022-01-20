@@ -1,0 +1,13 @@
+section#companies {
+  margin-bottom: var(--size-sections-gap);
+
+  img,
+  svg {
+    width: 100%;
+
+    path,
+    polygon {
+      fill: white;
+    }
+  }
+}

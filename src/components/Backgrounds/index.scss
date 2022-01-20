@@ -1,0 +1,35 @@
+.background-1 {
+  position: absolute;
+  z-index: -1;
+  width: 841.65px;
+  height: 841.65px;
+  left: 60%;
+  top: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(15, 247, 94, 0.3) 0%,
+    rgba(255, 11, 86, 0.48) 100%
+  );
+  opacity: 0.8;
+  filter: blur(200px);
+  transform: rotate(-17.38deg);
+  border-radius: 1000px;
+}
+
+.background-2 {
+  position: absolute;
+  z-index: -1;
+  width: 841.65px;
+  height: 841.65px;
+  left: -273px;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(15, 247, 94, 0.3) 0%,
+    rgba(255, 11, 86, 0.48) 100%
+  );
+  opacity: 0.8;
+  filter: blur(200px);
+  transform: rotate(-17.38deg);
+  border-radius: 1000px;
+}

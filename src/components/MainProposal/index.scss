@@ -1,0 +1,45 @@
+section#main-proposal {
+  margin-bottom: calc(var(--size-sections-gap) * 2);
+
+  p.greetings {
+    font-family: Noto Sans Mono, monospace;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--color-accent);
+    margin-bottom: 1rem;
+
+    .accent {
+      color: white;
+    }
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.3em;
+    margin-bottom: 1rem;
+
+    .accent {
+      color: var(--color-accent);
+    }
+  }
+
+  p.lead {
+    font-size: 26px;
+    line-height: 40px;
+
+    .accent {
+      color: var(--color-accent);
+    }
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 40px;
+    }
+    p.lead {
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+}
